@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>All Accounts</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>All Accounts</h1>
+        <a href="index.html" class="back-btn">🏠 Back to Dashboard</a>
+    </header>
+
+    <div class="list-container">
+        <div id="message"></div>
+        <table id="accountTable">
+            <thead>
+                <tr>
+                    <th>Account Holder</th>
+                    <th>Account Number</th>
+                    <th>Type</th>
+                    <th>Balance</th>
+                </tr>
+            </thead>
+            <tbody id="accountList">
+                <!-- Populated by JS -->
+            </tbody>
+        </table>
+    </div>
+
+    <script src="account-list.js"></script>
+</body>
+</html>

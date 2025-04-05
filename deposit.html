@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Deposit Money</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Deposit Money</h1>
+        <a href="index.html" class="back-btn">🏠 Back to Dashboard</a>
+    </header>
+
+    <div class="form-container">
+        <input type="text" id="accountNumber" placeholder="Enter Account Number" required>
+        <input type="number" id="depositAmount" placeholder="Enter Amount to Deposit" required>
+        <button onclick="depositMoney()">Deposit</button>
+
+        <div id="message"></div>
+    </div>
+
+    <script src="deposit.js"></script>
+</body>
+</html>

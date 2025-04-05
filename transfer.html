@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Transfer Funds</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Transfer Funds</h1>
+        <a href="index.html" class="back-btn">🏠 Back to Dashboard</a>
+    </header>
+
+    <div class="form-container">
+        <input type="text" id="fromAccount" placeholder="Sender Account Number" required>
+        <input type="text" id="toAccount" placeholder="Receiver Account Number" required>
+        <input type="number" id="transferAmount" placeholder="Enter Amount to Transfer" required>
+        <button onclick="transferFunds()">Transfer</button>
+
+        <div id="message"></div>
+    </div>
+
+    <script src="transfer.js"></script>
+</body>
+</html>
